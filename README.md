@@ -5,6 +5,9 @@ and lowercase letters are supposed to be used where applicable. If multiple
 parts/words are needed they are supposed to be written in
 [CamelCase](http://en.wikipedia.org/wiki/CamelCase).*
 
+**Note:** *Not needed folder inside the bootstrap filestructure should be
+deleted inside the corresponding role repository*
+
 ## Description
 
 This role is just an example. It is supposed to serve as a template for the
