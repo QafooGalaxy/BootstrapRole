@@ -8,7 +8,8 @@ parts/words are needed they are supposed to be written in
 ## Description
 
 This role is just an example. It is supposed to serve as a template for the
-creation of new [Ansible]() roles in the context of [QafooAnsible]().
+creation of new [Ansible](http://www.ansible.com/) roles in the context of
+[QafooGalaxy](http://qafoogalaxy.github.io/).
 
 **Note:** *The description of any role should be a short precise definition of what it is
 intended to do*
@@ -32,12 +33,15 @@ intended to do*
 
 **Note:** *Explicit dependencies are dependencies, which are needed to be
 installed for this role to work, but can not be installed using
-[meta/dependencies]() due to specialized configuration.*
+[meta/dependencies](http://docs.ansible.com/playbooks_roles.html#role-dependencies)
+due to specialized configuration.*
 
-*An example of such a dependency is the [npm]() role, which needs a configured
-nodejs environment. Nodejs however can be installed using different approaches
-and/or in different versions. (eg. using the [nvm] role, which can not properly
-be required using [meta/dependencies]().*
+*An example of such a dependency is the
+[npm](https://github.com/QafooGalaxy/npm) role, which needs a configured nodejs
+environment. Nodejs however can be installed using different approaches and/or
+in different versions. (eg. using the [nvm] role, which can not properly be
+required using
+[meta/dependencies](http://docs.ansible.com/playbooks_roles.html#role-dependencies).*
 
 *Most roles do not have explicit dependencies. In this case the whole section
 should be deleted*
@@ -73,8 +77,8 @@ optional value needs a specification of a default value*
 - AnotherImplicit Dependency
 
 **Note:** *Implicit dependencies are dependencies, which are enforced using
-[meta/dependencies](). If no implicit dependency exists this section should be
-deleted.*
+[meta/dependencies](http://docs.ansible.com/playbooks_roles.html#role-dependencies).
+If no implicit dependency exists this section should be deleted.*
 
 ## Further Remarks
 
