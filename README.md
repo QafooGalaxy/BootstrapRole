@@ -13,7 +13,7 @@ creation of new [Ansible]() roles in the context of [QafooAnsible]().
 **Note:** *The description of any role should be a short precise definition of what it is
 intended to do*
 
-## Example
+## Usage
 
 ```yaml
 - role: BootstrapRole
@@ -24,17 +24,17 @@ intended to do*
   default: "0.10"
 ```
 
-## Explicit dependencies
+## Explicit Dependencies
 
 - SomeOtherRole
     - optional: special options this role needs to be configured with
 - EvenAnotherRole
 
-**Note:** *Explicit depdencies are dependencies, which are needed to be
+**Note:** *Explicit dependencies are dependencies, which are needed to be
 installed for this role to work, but can not be installed using
 [meta/dependencies]() due to specialized configuration.*
 
-*An example of such a depdendency is the [npm]() role, which needs a configured
+*An example of such a dependency is the [npm]() role, which needs a configured
 nodejs environment. Nodejs however can be installed using different approaches
 and/or in different versions. (eg. using the [nvm] role, which can not properly
 be required using [meta/dependencies]().*
